@@ -1,0 +1,313 @@
+<!D0CTYPE html>
+<html>
+<head>
+<title>Foods</title>
+</head>
+<style>
+body{
+	background:#f1f1f0;
+	background-repeat:repeat;
+	
+}
+*{
+	box-sizing:border-box;
+	margin:0;
+	background:gray;
+	}
+nav{
+	background:#594848;
+	width:100%;
+	overflow:auto;
+	}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+li{
+	float:left;
+	}
+nav a{
+	width:120px;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	background:#594848;
+	font-size:17px;
+	color:white;
+	padding:20px 10px;
+	font-family:Arial;
+	
+	}
+nav a:hover{
+	background:skyblue;
+	color:black;
+	}
+.container{
+	max-width:800px;
+	margin:auto;
+	background:#f2f2f2;
+	overflow:auto;
+	}
+.gallery{
+	margin:5px;
+	border:1px solid #ccc;
+	float:left;
+	width:360px;
+	}
+.gallery img{
+	width:100%;
+	height:50%;
+	}
+.desc{
+	padding:15px;
+	text-align:center;
+	}
+footer{
+	padding:10px;
+	font-size:17px;
+	font-weight:bold;
+	text-align:center;
+	background:#594848;
+	color:white;
+	font-family:Arial;
+	letter-spacing:1px;
+	}
+h3{
+	text-align:center;
+	}
+	
+	ul{
+	list-style-type:none;
+	display:inline;
+	float:left-top;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:black;
+	font-family:Verdana;
+	position:fixed;
+	top:0;
+	width:100%;
+}
+li{
+	float:left;
+}
+li a{
+	display:inline-block;
+	color:#fff;
+	text-align:center;
+	padding:14px 16px;
+	border:1px solid #fff;
+	text-decoration:none;
+	transition:0.05s;
+}
+li a:hover{
+	background-color:rgb(255,0,0);
+}
+.active{
+	background-color:rgb(159,244,170);
+}
+.logo img{
+	float:left;
+	width:100px;
+	height:auto;
+}
+
+@media (max-width: 1040px){
+	header{
+		padding: 12px 20px;
+	}
+	section{
+		padding: 100px 20px;
+	}
+	.home .media-icons{
+		right: 15px;
+	}
+	header .navigation{
+	display: none;
+	}
+	header .navigation.active{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: rgba(1, 1, 1, 0.5); 
+	}
+	header .navigation .navigation-items a{
+		color: #222;
+		font-size: 1.2em;
+		margin: 20px;
+	}
+	header .navigation .navigation-items a:before{
+		background: #222;
+		height: 5px;
+	}
+	header .navigation.active .navigation-items{
+		background: #fff;
+		width: 600px;
+		max-width: 600px;
+		margin: 20px;
+		padding: 40px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 5px;
+		box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+	}
+
+	.menu-btn{
+	background: url(menu.png)no-repeat;
+	background-size: 30px;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	}
+	.menu-btn.active{
+		z-index: 999;
+		background: url(close.png)no-repeat;
+		background-size: 25px;
+		background-position: center;
+		transition: 0.3s ease;
+	}
+}
+.logo img{
+	float:left;
+	width:100px;
+	height:auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+header{
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 200px;
+	transition: 0.5s ease;
+}
+header .brand{
+	color:#fff;
+	font-size: 2.0em;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+header .navigation{
+	position: relative;
+}
+header .navigation .navigation-items a{
+	position: relative;
+	color: #000;
+	font-size: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	margin-left: 30px;
+	transition: 0.3 ease;
+}
+header .navigation .navigation-items a:before{
+	content: '';
+	position: absolute;
+	background: #000;
+	width: 0px;
+	height: 3px;
+	bottom:	0px;
+	left: 0px;
+}
+header .navigation .navigation-items a:hover:before{
+	width: 100%;
+}
+section{
+	padding: 100px 200px;
+}
+</style>
+<body>
+	
+	<header>
+<div class="logo">
+<a href="homepage.html" class="brand"><img src="logo.png"></a>
+</div>
+	<div class="menu-btn"></div>
+	<div class="navigation">
+		<div class="navigation-items">
+			<a href="gallery.html">Home</a>
+			<a href="aboutus.html">About us</a>
+			<a href="Quotes, Mission and Vision.html">Goals</a>
+			<a href="contactus.html">Contact</a>
+			<a href="login.html">Log in</a>
+</header>
+
+<section>
+<div class = "container">
+	<h3>Sushi Bake<br>Basque Burnt Cheesecake</h3>
+	<div class ="gallery">
+		<img src ="sushibake.jpg">
+			<div class ="desc"> This baked casserole is delicious, spawning flavors from spam sushi bakes to takoyaki bakes. 
+			While I can’t imagine ordering a sushi bake while in a restaurant, eating sushi bake at home is still very popular. </div>
+	</div>
+		<div class ="gallery">
+		<img src ="basqueburnt.jpg">
+			<div class ="desc"> Another trend that started before the pandemic but became fully viral during the lockdown is the burnt basque cheesecake. 
+			Today, celebrated chefs and home bakers continue to offer this cheesy melty treat. Dscription</div>
+	</div>
+</div>
+<div class = "container">
+		<h3>Cinnamon Rolls<br>Dalgona Coffee</h3>
+		<div class ="gallery">
+		<img src ="cinnamon rolls.jpg">
+			<div class ="desc"> Cinnamon rolls consist of a rolled sheet of yeast-leavened dough with cinnamon, sugar, and raisins and other is sprinkled over a thin coat of butter. Cinnamon rolls are one of the easy things you can bake using pantry staples. Cinnamon rolls seem to have become more popular than ever because they’re just good old-fashioned comfort food that reminds us all of better days. <br>
+			In times of stress, we’re wired to seek out comfort food.</div>
+	</div>
+		<div class ="gallery">
+		<img src ="dalgonacoffee.jpg">
+			<div class ="desc"> The Korean-candy inspired whipped-coffee concoction may be last on this list, but it can easily be called the first viral food trend this quarantine. Easy to make if you’re lucky enough to have a hand-mixer, and also a great opportunity to gripe or brag about your arm-strength if you don’t. 
+			It was curiosity and slow-motion videos that made the world take notice.</div>
+	</div>
+</div>
+<div class = "container">
+	<h3>Korean Garlic Buns<br>Ube Cheese Pandesal</h3>
+	<div class ="gallery">
+		<img src ="koreanbuns.jpg">
+			<div class ="desc"> This soft bread slathered with sweet cream cheese, garlic butter, and herbs took over everyone’s feed mid-pandemic. 
+			Perfect for those who enjoy sweet-savory things. </div>
+	</div>
+	<div class ="gallery">
+		<img src ="ubecheese.jpg">
+			<div class ="desc"> The ube or the ube cheese pandesal actually started being popular before the lockdown. 
+			Reaching peak status during the quarantine with many home-bound first time or casual bakers making it at home, it’s hard to imagine life without having a favorite ube cheese or ube pandesal baker. </div>
+	</div>
+</div>
+</section>
+<script type="text/javascript">
+	const menuBtn = document.querySelector(".menu-btn");
+	const navigation = document.querySelector(".navigation");
+	
+	menuBtn.addEventListener("click", () =>	 {
+		menuBtn.classList.toggle("active");	
+		navigation.classList.toggle("active");
+		});
+	</script>
+<footer class="sticky-footer">
+	
+<p> 
+	Copyright &copy 2021 this website is created by: B.C.C.L.M.Com.Ph 
+</p>
+</footer>
+</body>
+</html>

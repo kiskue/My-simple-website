@@ -1,0 +1,294 @@
+<!D0CTYPE html>
+<html>
+<head>
+<title>Places</title>
+</head>
+<style>
+body{
+	background:#f1f1f0;
+	background-repeat:repeat;
+	
+}
+*{
+	box-sizing:border-box;
+
+	;
+	}
+
+.logo img{
+	float:left;
+	width:100px;
+	height:auto;
+}
+.container{
+	max-width:800px;
+	margin:auto;
+	background:#f2f2f2;
+	overflow:auto;
+	}
+.gallery{
+	margin:5px;
+	border:1px solid #ccc;
+	float:left;
+	width:360px;
+	}
+.gallery img{
+	width:100%;
+	height:50%;
+	}
+.desc{
+	padding:15px;
+	text-align:center;
+	}
+footer{
+	padding:10px;
+	font-size:17px;
+	font-weight:bold;
+	text-align:center;
+	background:#594848;
+	color:white;
+	font-family:Arial;
+	letter-spacing:1px;
+	}
+h3{
+	text-align:center;
+	font-family: 'Poppins', sans-serif;
+	}
+	
+	@media (max-width: 1040px){
+	header{
+		padding: 12px 20px;
+	}
+	section{
+		padding: 100px 20px;
+	}
+	.home .media-icons{
+		right: 15px;
+	}
+	header .navigation{
+	display: none;
+	}
+	header .navigation.active{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: rgba(1, 1, 1, 0.5); 
+	}
+	header .navigation .navigation-items a{
+		color: #222;
+		font-size: 1.2em;
+		margin: 20px;
+	}
+	header .navigation .navigation-items a:before{
+		background: #222;
+		height: 5px;
+	}
+	header .navigation.active .navigation-items{
+		background: #fff;
+		width: 600px;
+		max-width: 600px;
+		margin: 20px;
+		padding: 40px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 5px;
+		box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+	}
+
+	.menu-btn{
+	background: url(menu.png)no-repeat;
+	background-size: 30px;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	}
+	.menu-btn.active{
+		z-index: 999;
+		background: url(close.png)no-repeat;
+		background-size: 25px;
+		background-position: center;
+		transition: 0.3s ease;
+	}
+}
+.logo img{
+	float:left;
+	width:100px;
+	height:auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+header{
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 200px;
+	transition: 0.5s ease;
+}
+header .brand{
+	color:#fff;
+	font-size: 2.0em;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+header .navigation{
+	position: relative;
+}
+header .navigation .navigation-items a{
+	position: relative;
+	color: #000000;
+	font-size: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	margin-left: 30px;
+	transition: 0.3 ease;
+}
+header .navigation .navigation-items a:before{
+	content: '';
+	position: absolute;
+	background: #000;
+	width: 0px;
+	height: 3px;
+	bottom:	0px;
+	left: 0px;
+}
+header .navigation .navigation-items a:hover:before{
+	width: 100%;
+}
+section{
+	padding: 100px 200px;
+}
+</style>
+<body>
+
+	<header>
+<div class="logo">
+<a href="homepage.html" class="brand"><img src="logo.png"></a>
+</div>
+	<div class="menu-btn"></div>
+	<div class="navigation">
+		<div class="navigation-items">
+			<a href="gallery.html">Home</a>
+			<a href="aboutus.html">About us</a>
+			<a href="Quotes, Mission and Vision.html">Goals</a>
+			<a href="contactus.html">Contact</a>
+			<a href="login.html">Log in</a>
+</header>
+
+<section>
+<div class = "container">
+	<h3>Tinipak River (Tanay, Rizal)</h3>
+	<div class ="gallery">
+		<img src ="tinipak.jpg">
+			
+	</div>
+		<div class ="gallery">
+		<img src ="tinipak2.jpg">
+	</div>
+	<p><center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9337529603085!2d121.44312041141042!3d14.602849627453416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339792756a80fe23%3A0xdaf231d8501f761c!2sTinipak%20River!5e0!3m2!1sfil!2sph!4v1625751329012!5m2!1sfil!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></center></iframe></p>
+	<div class ="desc"> Tinipak River is a hidden paradise situated in Brgy. Daraitan in Tanay, Rizal, 
+			was awarded as the cleanest inland body of water in the region.<br>
+			Reaching this destination requires patience and endurance in trekking giant trails of rock, making Tinipak River a perfect getaway for those who love outdoor adventure - 
+			Trust us, it’s worth it! From giant boulders to tranquil and cool river water, this place has everything you need to enjoy an adrenaline-filled weekend.
+	</div>
+</div>
+</div>
+<div class = "container">
+		<h3>Jomalig Island (Quezon Province)</h3>
+		<div class ="gallery">
+		<img src ="jomalig.jpg">
+			
+	</div>
+		<div class ="gallery">
+		<img src ="jomalig2.jpg">
+	</div>
+	<p><center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52821.9632446715!2d122.33821317805969!3d14.704737843719638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3398ff9407b0cad1%3A0x6329443247e14b90!2sJomalig%2C%20Quezon!5e1!3m2!1sfil!2sph!4v1625789737692!5m2!1sfil!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center></p>
+	<div class ="desc"> Jomalig is a unpopular island municipality in Quezon Province. 
+	It boasts of gold and white beaches, the reason why many travelers call it a desert paradise in the middle of the ocean.<br>
+	
+	</div>
+</div>
+<div class = "container">
+	<h3>Seco Island (Antique)</h3>
+	<div class ="gallery">
+		<img src ="seco.jpg">
+	</div>
+	<div class ="gallery">
+		<img src ="seco2.jpg">
+			
+	</div>
+	<p><center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9743.47156231626!2d121.6630720201241!3d11.319681039732107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33afe1bca843e6ff%3A0x29a1ccb9d86f9f5b!2sSeco%20Island!5e1!3m2!1sfil!2sph!4v1625790163637!5m2!1sfil!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center></p>
+	<div class ="desc"> 
+	The Seco Island is a serene and uninhabited island located nearby west of Panay. <br>
+	It’s basically an island made of white sand stretching 1.5 kilometers in the middle of the ocean. 
+	The island paradise was named after the Kinaray-a word for “elbow” due to its shape.
+	</div>
+</div>
+<div class = "container">
+	<h3>Corcuera Island</h3>
+	<div class ="gallery">
+		<img src ="corcuera.jpg">
+	</div>
+	<div class ="gallery">
+		<img src ="corcuera2.jpg">
+			
+	</div>
+	<p><center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106507.84897032377!2d122.0078285053431!3d12.798125280467719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a49e3b907d270b%3A0xcdf3cf4fcdac9172!2sSimara%20Island!5e1!3m2!1sfil!2sph!4v1625790398327!5m2!1sfil!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center></p>
+	<div class ="desc"> Corcuera is a virgin island municipality in Romblon and home to white sand beaches that could rival Boracay’s. <br>
+	Locals still refer to it as Simara, the island’s old name when it was still part of Banton town. It was later renamed in 1931 to honor 
+	Spanish Governor General Hurtado de Corcuera who ruled the country from 1635 to 1644.
+	
+	</div>
+</div>
+<div class = "container">
+	<h3>Quezon Beach (Patikul, Sulu)</h3>
+	<div class ="gallery">
+		<img src ="patikul.jpg">
+	</div>
+	<div class ="gallery">
+		<img src ="patikul2.jpg">
+			
+	</div>
+	<p><center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76801.2502123917!2d121.04686756680594!3d6.047893973865164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3244e2db0f9e04dd%3A0x23832c7628b55cbd!2sBayan%20ng%20Patikul%2C%20Sulu!5e1!3m2!1sfil!2sph!4v1625790845423!5m2!1sfil!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center></p>
+	<div class ="desc"> Quezon Beach situated in Patikul, Sulu is a non-commercialized tourist destination known for its fine sand and crystal-clear waters. <br>
+			It is considered as one of the best beaches in the country - some even say its better than the world-renowned ‘Boracay’.
+			
+	</div>
+</div>
+</section>
+<script type="text/javascript">
+	const menuBtn = document.querySelector(".menu-btn");
+	const navigation = document.querySelector(".navigation");
+	
+	menuBtn.addEventListener("click", () =>	 {
+		menuBtn.classList.toggle("active");	
+		navigation.classList.toggle("active");
+		});
+	</script>
+<footer class="sticky-footer">
+	
+<p> 
+	Copyright &copy 2021 this website is created by: B.C.C.L.M.Com.Ph 
+</p>
+</footer>
+</body>
+</html>
